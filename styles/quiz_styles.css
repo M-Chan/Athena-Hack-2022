@@ -1,0 +1,24 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#quiz{
+    display: flex;
+    width: inherit; height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.is-visible{
+    display: block;
+}
+
+.is-hidden{
+    display: none;
+}
