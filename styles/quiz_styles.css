@@ -4,15 +4,44 @@
 }
 
 .container{
+    display: flex;
+    width: 80vw; height: 80vh;
+    justify-content: center;
+    align-items: center;
+    
     width: 100vw;
     height: 100vh;
 }
 
 #quiz{
-    display: flex;
-    width: inherit; height: inherit;
+    display: block;
+    width: 80vw; height: 80vh;
     justify-content: center;
     align-items: center;
+
+    border: 1px solid yellow;
+    padding: 0;
+}
+
+#questions{
+    border: 1px solid black;
+    width: inherit;
+    height: 20vh;
+
+    margin-bottom: 5vh;
+
+}
+
+#answers{
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 5vh 5vh;
+
+    height: 60vh;
+    width: inherit;
 }
 
 .is-visible{
