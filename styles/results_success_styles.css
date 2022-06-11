@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .congrats{
@@ -34,6 +34,36 @@
     grid-row: 2;
 
     width: 100vw;
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vh 25vh;/* should add to 55vh */
+}
+
+.user{
+    grid-row: 1;
+}
+
+#userPhoto{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-size: 100%;
+    background-color: #D9D9D9;;
+}
+
+.potentialMatches{
+    grid-row: 2;
+}
+
+#match1, #match2, #match3{
+    display: inline-block;
+
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-size: 100%;
+    background-color: #D9D9D9;;
 }
 
 .matches{
