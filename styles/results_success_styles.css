@@ -2,5 +2,50 @@
     margin: 0;
     grid-row: 2;
 
-    background-color: aqua;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 45vh 35vh;/* should add to 85vh */
+}
+
+.congrats{
+    grid-row: 1;
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+
+    font-family: Inter;
+    font-size: 2.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.tree{
+    grid-row: 2;
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.matches{
+    grid-row: 3;
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
 }
