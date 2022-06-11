@@ -18,7 +18,6 @@ body{
     background-color: #fff;
 
     display: grid;
-
     grid-template-columns: 100vw;
     grid-template-rows: 15vh 85vh;
 }
@@ -38,7 +37,7 @@ body{
 .webCompany{
     height: inherit;
     width: auto;
-    border: 1px solid yellow;
+    border: 1px solid black;
     grid-column: 1;
 
     justify-content: inherit;
@@ -56,7 +55,7 @@ body{
 }
 
 #navigationPane{
-    border: 1px solid blue;
+    border: 1px solid black;
     height: inherit;
     width: auto;
     grid-column: 2;
@@ -99,7 +98,7 @@ body{
 }
 
 #profile{
-    border: 1px solid green;
+    border: 1px solid black;
     height: inherit;
     width: auto;
     grid-column: 3;
