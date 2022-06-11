@@ -24,7 +24,7 @@ body{
 
 #top{
     height: 10vh;
-    margin: 5vh 0;
+    margin: 2.5vh 0;
     grid-row: 1;
 
     display: grid;
