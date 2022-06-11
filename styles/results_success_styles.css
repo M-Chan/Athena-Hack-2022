@@ -1,8 +1,6 @@
-.Success {
+#successPart {
     margin: 0;
-    width: 100vw;
-    height: 100vh;
-    flex-grow: 0;
-    /* padding: 113px 33px 79px 22px;*/
-    background-color: #fff;
+    grid-row: 2;
+
+    background-color: aqua;
 }

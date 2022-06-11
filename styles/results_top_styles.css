@@ -11,9 +11,23 @@ body{
     overflow: hidden;
 }
 
+.SuccessFrame {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+
+    display: grid;
+
+    grid-template-columns: 100vw;
+    grid-template-rows: 15vh 85vh;
+}
+
 #top{
     height: 10vh;
     margin: 5vh 0;
+    grid-row: 1;
+
     display: grid;
     grid-template-columns: 10vw 80vw 10vw;
     grid-template-rows: 10vh;
@@ -93,6 +107,23 @@ body{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 7vh 3vh; 
+}
+
+.User-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1;
+  }
+
+#profilePic{
+    width: 4.5vh;
+    height: 4.5vh;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background-color: #d9d9d9;
 }
 
 .heyPerson{
