@@ -20,4 +20,6 @@ We believe that connecting people to real people is important and that everyone 
 ![image](https://user-images.githubusercontent.com/81781462/173254089-e2076a48-cf35-453e-aed8-c8f6a489a8a7.png)
 ![image](https://user-images.githubusercontent.com/81781462/173254118-28d6b4ee-6132-4c09-899c-0e8c4b70e062.png)
 
-## Website Video Walkthrough
+## Video Pitch for Hack
+Sorry we had upload issues with the photo and pitch video so we've added the pitch video here...
+https://user-images.githubusercontent.com/81781462/173255726-ea4b2ece-0e27-4d0d-b524-931e3a1c3272.mp4
