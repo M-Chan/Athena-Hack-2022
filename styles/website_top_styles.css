@@ -67,6 +67,7 @@ body{
 
 #Company_namelogo{
     position: absolute;
+    margin-top: 2vh;
     top: 1.5vh;
     left: 4vw;
 
@@ -117,6 +118,7 @@ body{
 }
 
 #profile{
+    margin-top: 5vh;
     /* border: 1px solid black; */
     height: inherit;
     width: auto;
@@ -130,8 +132,8 @@ body{
 .User-profile{grid-row: 1;}
 
 #profilePic{
-    width: 5vh;
-    height: 5vh;
+    width: 6vh;
+    height: 6vh;
 
     border: 1px solid black;
     border-radius: 50%;
@@ -141,4 +143,10 @@ body{
     background-size: 100%;
 }
 
-.heyPerson{grid-row: 2;}
+.heyPerson{
+    grid-row: 2;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
