@@ -38,19 +38,19 @@ body{
 
     display: grid;
     grid-template-columns: 27.5vw;
-    grid-template-rows: 16vh 15vh 18vh 18vh 18vh; /* adds to 85vh*/
+    grid-template-rows: 13vh 15vh 19vh 19vh 19vh; /* adds to 85vh*/
     gap: 0;
 }
 
 .selected{
     grid-column: 2;
 
-    background-color: purple;
+    background-color: #f1efef;
 
     /* 1 column; many rows?*/
     display: grid;
     grid-template-columns: auto; 
-    grid-template-rows: 16vh auto; /* adds to 85vh*/
+    grid-template-rows: 13vh auto; /* adds to 85vh*/
     gap: 0;
 }
 

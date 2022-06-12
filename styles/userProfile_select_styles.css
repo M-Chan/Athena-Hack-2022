@@ -16,7 +16,65 @@ body{
     background-color: white;
 
     display: grid;
-    /* 3 columns needed to add to 27.5vw*/
+    grid-template-columns: 22vw 5.5vw; /* 3 columns needed to add to 27.5vw but split to 2 for now*/
+    grid-template-rows: auto;
+    gap: 0;
+}
+
+#typeVoid{
+    grid-column: 2;
+    /* background-color: black; */
+}
+
+.tabs{
+    display: grid;
+    grid-template-columns: 11vw 11vw; /* split columns further */
+    grid-template-rows: 6vh 7vh; /* two 'rows' with a void top adding to 13vh */
+    gap: 0;
+}
+
+#tabVoidTop{
+    grid-row: 1;
+    grid-column: 1 / 3;
+    /* background-color: black; */
+}
+
+.clickTab{
+    grid-row: 2;
+
+    width: 11vw;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#typeRecruiter{
+    grid-column: 1;
+
+    background-color: #e8dfd8;
+}
+
+#recruiterText{
+    width: 11vw;
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
+}
+
+#typeMentor{
+    grid-column: 2;
+    
+
+    background-color: #ffdc8a;
+}
+
+#mentorText{
+    width: 11vw;
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
 }
 
 .info{
@@ -31,6 +89,7 @@ body{
     font-family: Inter;
     font-size: 1.2rem;
 }
+
 
 #Layla{
     grid-row: 3;
