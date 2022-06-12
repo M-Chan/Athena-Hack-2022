@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.userType{
+    grid-row: 1;
+    background-color: white;
+
+    display: grid;
+    /* 3 columns needed to add to 27.5vw*/
+}
+
+.info{
+    grid-row: 2;
+    background-color: #e8dfd8;
+}
+
+#infoText{
+    width: 22.5vw;
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.2rem;
+}
+
+#Layla{
+    grid-row: 3;
+    background-color: #ffdc8a;
+}
+
+#Marcos{
+    grid-row: 4;
+    background-color: #e8dfd8;
+}
+
+#Romi{
+    grid-row: 5;
+    background-color: #ffdc8a;
+}

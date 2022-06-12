@@ -11,11 +11,49 @@ body{
     overflow: hidden;
 }
 
-.SuccessFrame {
+.userProfilesFrame{
     margin: 0;
     width: 100vw;
     height: 100vh;
     background-color: #fff;
 
     display: grid;
+}
+
+#userProfilesPart{
+    margin: 0;
+    width: 100vw;
+    height: 85vh;
+
+    background-color: #f1efef;
+
+    display: grid;
+    grid-template-columns: 27.5vw 72.5vw;
+    grid-template-rows: auto;
+    gap: 0;
+}
+
+.select{
+    grid-column: 1;
+
+    display: grid;
+    grid-template-columns: 27.5vw;
+    grid-template-rows: 16vh 15vh 18vh 18vh 18vh; /* adds to 85vh*/
+    gap: 0;
+}
+
+.selected{
+    grid-column: 2;
+
+    background-color: purple;
+
+    /* 1 column; many rows?*/
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: 16vh auto; /* adds to 85vh*/
+    gap: 0;
+}
+
+#void{
+    background-color: white;
 }
