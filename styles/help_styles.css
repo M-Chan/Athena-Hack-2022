@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.is--visible{
+    display: block;
+}
+
+.is--hidden{
+    display: none;
+}
+
+#infoOnQuiz{
+    width: 100vw;
+    height: 85vh;
+
+    grid-row: 1 / 5;
+    grid-column: 1;
+}
+
+.helpPart{
+    width: 100vw;
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help{
+    background-color: #fff;
+    border: 1vh solid black;
+
+    width: 80vw;
+    height: 65vh;
+}
