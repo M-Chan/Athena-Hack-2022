@@ -11,3 +11,75 @@
 
     display: grid;
 }
+
+.dialingPart{
+    width: 100vw;
+    height:  85vh;
+    margin-top: 4vh;
+    background-color: #f1efef;
+
+    display: grid;
+    grid-template-columns: 45vw 10vw 45vw; /* 3 columns adding to 100vw but just use center bar the cancel icon */
+    grid-template-rows: 85vh; /* stick to one now but split into multiple rows later */
+}
+
+#exitCall{
+    grid-column: 1;
+    margin: 2.5vh;
+
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../assets/crossIcon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dialingContent{
+    grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 10vw; /* using the middle section */
+    grid-template-rows: 30vh 15vh 40vh; /* 3 rows adding to 85vh */
+}
+
+.personDialingPart{grid-row: 1;}
+
+#personDialingImage{
+    width: 20vh;
+    height: 20vh;
+    background-image: url("../assets/match1.png");
+    background-size: 100%;
+}
+
+.callDialing{
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 8vw 2vw; /* adds to 10vw */
+}
+
+#callDialingText{
+    grid-column: 1;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3rem;
+}
+
+#callDialingIcon{
+    grid-column: 2;
+
+    width: 2vh;
+    height: 2vh;
+    background-image: url("../assets/callIcon.png");
+    background-size: 100%;
+}
+
+.endCallPart{grid-row: 3;}
+
+#endCallImage{
+    width: 10vh;
+    height: 10vh;
+    background-image: url("../assets/endCall.png");
+    background-size: 100%;
+}
