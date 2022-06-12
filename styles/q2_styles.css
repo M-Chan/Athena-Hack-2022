@@ -121,11 +121,13 @@ a{
 }
 
 .row button{
-    height: 4vh;
+    height: 5vh;
 
     font-family: Inter;
     font-size: 1rem;
     text-align: center;
+
+    background-color: #D9D9D9;
 }
 
 .row button:hover{
