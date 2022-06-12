@@ -49,7 +49,7 @@ body{
 
     /* 1 column; many rows?*/
     display: grid;
-    grid-template-columns: 5vw 67.5vw; /* adds to 72.5vw*/
+    grid-template-columns: 4vw 68.5vw; /* adds to 72.5vw*/
     grid-template-rows: 13vh 72vh; /* adds to 85vh*/
     gap: 0;
 }
