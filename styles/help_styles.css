@@ -32,6 +32,11 @@ a{
     background-image: url("../assets/Question.png");
 }
 
+#helpIcon:hover{
+    cursor: pointer;
+    background-image: url("../assets/Question2.png");
+}
+
 #infoOnQuiz{
     width: 100vw;
     height: 85vh;
@@ -58,7 +63,7 @@ a{
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 6vh 14vh 45vh; /* 3 rows; adds to 65vh */
+    grid-template-rows: 6vh 12vh 43vh; /* 3 rows; adds to 65vh */
 }
 
 .helpTop{grid-row: 1;}
@@ -79,6 +84,13 @@ a{
     height: 4vh;
     background-size: 100%;
     background-image: url("../assets/Cross2Icon.png");
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#exitHelpIcon:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
 }
 
 .helpMid{grid-row: 2;}

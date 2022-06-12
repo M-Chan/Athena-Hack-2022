@@ -155,3 +155,8 @@ body{
     font-family: Inter;
     font-size: 1.2rem;
 }
+
+.connectButtons button:hover{
+    background-color: #ffdc8a;
+    cursor: pointer;
+}
