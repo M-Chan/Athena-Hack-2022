@@ -115,8 +115,43 @@ body{
 
 #connectBox{
     grid-row: 3;
-    background-color: violet;
 
     display: grid;
-    grid-template-rows: 12vh 14vh 12vh; /* 3 rows and use only middle later */
+    grid-template-rows: 15vh 4vh 4vh 15vh; /* 4 rows and use only middle 2 later */
+}
+
+#connectText{
+    grid-row: 2;
+
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.2rem;
+}
+
+#connectButtonsPart{
+    grid-row: 3;
+
+    display: grid;
+    grid-template-columns: 11vw 11vw 11vw 35.5vw; /* split to 4 columns for the 3 buttons and void; these will add to  68.5vw*/
+}
+
+#audioButton{grid-column: 1;}
+#videoButton{ grid-column: 2;}
+#messageButton{grid-column: 3;}
+
+#audioButton, #videoButton, #messageButton {
+    justify-content: left;
+}
+
+.connectButtons button{
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+
+    height: 4vh;
+    width: 9vw;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.2rem;
 }
