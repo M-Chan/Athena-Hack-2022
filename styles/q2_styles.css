@@ -46,8 +46,7 @@ a{
 }
 
 .selectionRows{
-    margin-top: 2vh;
-
+    margin-top: 4vh;
     grid-row: 2;
 
     display: grid;
@@ -61,12 +60,15 @@ a{
     height: 7vh;
     display: grid;
     grid-template-rows: 85vh;
+    gap: 2vw;
 }
 
-#row1{grid-template-columns: 10vw 13vw 15vw 11vw 14vw 12vw 15vw 10vw; /* middle adds to 80vw */}
-#row2{grid-template-columns: 10vw 14vw 11vw 15w 13vw 12vw 15vw 10vw; /* middle adds to 80vw */}
-#row3{grid-template-columns: 10vw 13vw 15vw 13vw 12vw 13vw 14vw 10vw; /* middle adds to 80vw */}
-#row4{grid-template-columns: 10vw 15vw 14w 10vw 15vw 11vw 15vw 10vw; /* middle adds to 80vw */}
+.row-odd{
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw; /* middle adds to 80vw */
+}
+.row-even{
+    grid-template-columns: 15vw 12vw 12vw 12vw 12vw 12vw 15vw; /* middle adds to 80vw */
+}
 
 .buttonPart{
     grid-row: 3;
@@ -86,6 +88,11 @@ a{
     margin-left: 3vw;
 }
 
+.enterButton:hover{
+    cursor: pointer;
+    background-color: #dfad39;
+}
+
 .enterText{
     font-family: Inter;
     font-size: 1.3rem;
@@ -100,19 +107,27 @@ a{
 #adaptBox, #achieveBox, #contextBox, #learnBox{
     grid-column: 3;
 }
-#restoreBox, #devBox, #sigBox, #relBox{
+#restoreBox, #devBox, #sigBox, #relBox, #incBox{
     grid-column: 4;
 }
-#connectnessBox, #consistBox, #comBox, #incBox{
+#connectnessBox, #consistBox, #comBox, #compBox{
     grid-column: 5;
 }
-#arrangeBox, #futureBox, #empthBox, #compBox{
+#arrangeBox, #futureBox, #empthBox, #beliefBox, #indBox{
     grid-column: 6;
 }
-#selfBox, #beliefBox, #commandBox, #indBox{
+#selfBox,  #commandBox{
     grid-column: 7;
 }
 
 .row button{
     height: 4vh;
+
+    font-family: Inter;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.row button:hover{
+    cursor: pointer;
 }
