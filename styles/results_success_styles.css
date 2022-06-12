@@ -42,6 +42,7 @@
     border-radius: 50%;
     background-size: 100%;
     background-color: #D9D9D9;;
+    background-image: url("../assets/Lara.png");
 }
 
 .potentialMatches{
@@ -59,15 +60,15 @@
 }
 
 #match1{
-    background-image: url("../assets/Lara.png");
+    background-image: url("../assets/match1.png");
 }
 
 #match2{
-    background-image: url("../assets/Lara.png");
+    background-image: url("../assets/match2.png");
 }
 
 #match3{
-    background-image: url("../assets/Lara.png");
+    background-image: url("../assets/match3.png");
 }
 
 .matches{

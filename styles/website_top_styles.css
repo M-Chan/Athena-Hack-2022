@@ -45,7 +45,7 @@ body{
 .webCompany{
     height: inherit;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     grid-column: 1;
 
     justify-content: inherit;
@@ -63,7 +63,7 @@ body{
 }
 
 #navigationPane{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: inherit;
     width: auto;
     grid-column: 2;
@@ -102,7 +102,7 @@ body{
 }
 
 #profile{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: inherit;
     width: auto;
     grid-column: 3;
