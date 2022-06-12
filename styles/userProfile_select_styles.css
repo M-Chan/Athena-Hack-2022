@@ -90,18 +90,52 @@ body{
     font-size: 1.2rem;
 }
 
+.potentialPerson{
+   
+    display: grid;
+    grid-template-columns: 27.5vw; /* 2 columns adding to 27.5vw */
+    grid-template-rows: 5.5vh 12.5vh; /* adds to 19vh */
+}
+
+.potentialPersonName{
+    grid-column: 1;
+
+    margin-top: 1.25vw;
+    margin-left: 1.25vw;
+
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.3rem;
+}
+
+.potentialPersonPhoto{
+    grid-column: 1;
+    margin-top: 1vw;
+    margin-left: 1.25vw;
+
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+    background-size: 100%;
+}
 
 #Layla{
     grid-row: 3;
     background-color: #ffdc8a;
 }
 
+#laylaPhoto{background-image: url("../assets/match1.png");}
+
 #Marcos{
     grid-row: 4;
     background-color: #e8dfd8;
 }
 
+#marcosPhoto{background-image: url("../assets/match2.png");}
+
 #Romi{
     grid-row: 5;
     background-color: #ffdc8a;
 }
+
+#romiPhoto{background-image: url("../assets/match3.png");}
