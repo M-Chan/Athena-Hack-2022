@@ -77,6 +77,8 @@ input{
 }
 
 #locationText{
+    margin-top: 2vh;
+    margin-left: 2vh;
     grid-column: 1;
     font-family: Inter;
     font-size: 1.3rem;
@@ -90,9 +92,12 @@ input{
 }
 
 #locationIcon{
-    height: 3vh;
-    width: 3vh;    
-    background-size: 100%;
+    margin-top: 1vh;
+    margin-left: 5vw;
+    height: 5vh;
+    width: 5vh;    
+    background-size: 50%;
+    background-repeat: no-repeat;
     background-image: url("../assets/locationIcon.png");
 }
 
