@@ -91,10 +91,9 @@ body{
 }
 
 .potentialPerson{
-   
     display: grid;
-    grid-template-columns: 27.5vw; /* 2 columns adding to 27.5vw */
-    grid-template-rows: 5.5vh 12.5vh; /* adds to 19vh */
+    grid-template-columns: 7.5vw 20vw; /* 2 columns adding to 27.5vw */
+    grid-template-rows: 5.5vh 13.5vh; /* adds to 19vh */
 }
 
 .potentialPersonName{
@@ -139,3 +138,12 @@ body{
 }
 
 #romiPhoto{background-image: url("../assets/match3.png");}
+
+.potentialPersonInfo{
+    grid-column: 2;
+    margin-top: 1vw;
+
+    text-align: left;
+    font-family: Inter;
+    font-size: 1.2rem;
+}
