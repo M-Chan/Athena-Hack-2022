@@ -46,6 +46,8 @@ a{
 }
 
 .selectionRows{
+    margin-top: 2vh;
+
     grid-row: 2;
 
     display: grid;
@@ -109,4 +111,8 @@ a{
 }
 #selfBox, #beliefBox, #commandBox, #indBox{
     grid-column: 7;
+}
+
+.row button{
+    height: 4vh;
 }

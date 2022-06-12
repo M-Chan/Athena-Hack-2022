@@ -32,6 +32,13 @@
     background-image: url(../assets/crossIcon.png);
     background-repeat: no-repeat;
     background-size: 100%;
+
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#exitCall:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
 }
 
 .dialingContent{
@@ -95,5 +102,13 @@
     width: 10vh;
     height: 10vh;
     background-image: url("../assets/endCall.png");
+    background-size: 100%;
+}
+
+#endCallImage:hover{
+    cursor: pointer;
+    width: 10vh;
+    height: 10vh;
+    background-image: url("../assets/endCall2.png");
     background-size: 100%;
 }
