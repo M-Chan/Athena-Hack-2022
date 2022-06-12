@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/website_top_styles.css" />
     <link rel="stylesheet" href="./styles/results_success_styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <title>Success!</title>
 </head>
 <body>
@@ -54,18 +55,18 @@
                 <div class="user flex">
                     <div id="userPhoto"></div>
                 </div>
-                <div class="potentialMatches flex">
-                    <div id="match1"></div>
-                    <div id="match2"></div>
-                    <div id="match3"></div>
+                <div class="potentialMatches">
+                    <div id="match1" class="matchImage"><div id="match1Image"></div></div>
+                    <div id="match2" class="matchImage"><div id="match2Image"></div></div>
+                    <div id="match3" class="matchImage"><div id="match3Image"></div></div>
                 </div>
             </div>
 
             <div class="matches">
-                <div id="matchText" class="flex">We've found awesome recruiter and mentor matches for you!</div>
+                <div id="matchText" class="flex">We’ve found awesome recruiter and mentor matches based on your location and skills!</div>
 
                 <div id="matchButton" class="flex">
-                    <button id="matchButtonButton">View matches</button>
+                    <a href="./userProfiles.html"><button id="matchButtonButton">View matches</button></a>
                 </div>
             </div>
         </div>

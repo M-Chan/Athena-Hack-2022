@@ -1,10 +1,10 @@
 #successPart {
-    margin: 0;
+    margin-top: 5vh;
     grid-row: 2;
 
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 10vh 55vh 25vh;/* should add to 85vh */
+    grid-template-rows: 10vh 45vh 30vh;/* should add to 85vh */
 }
 
 .congrats{
@@ -13,8 +13,8 @@
     width: 100vw;
 
     font-family: Inter;
-    font-size: 2.125rem;
-    font-weight: normal;
+    font-size: 2.1rem;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -29,7 +29,7 @@
 
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 30vh 25vh;/* should add to 55vh */
+    grid-template-rows: 26vh auto;/* should add to 55vh */
 }
 
 .user{
@@ -47,28 +47,35 @@
 
 .potentialMatches{
     grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 37vw 8vw 10vw 8vw 37vw; /* only use middle 3 columns */
 }
 
-#match1, #match2, #match3{
-    display: inline-block;
+.matchImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    margin: 0;
+}
+
+#match1{grid-column: 2;}
+#match1Image{background-image: url("../assets/match1.png");}
+
+#match2{grid-column: 3;}
+#match2Image{background-image: url("../assets/match2.png");}
+
+#match3{grid-column: 4;}
+#match3Image{background-image: url("../assets/match3.png");}
+
+#match1Image, #match2Image, #match3Image{
     height: 10vh;
     width: 10vh;
     border-radius: 50%;
     background-size: 100%;
     background-color: #D9D9D9;
-}
-
-#match1{
-    background-image: url("../assets/match1.png");
-}
-
-#match2{
-    background-image: url("../assets/match2.png");
-}
-
-#match3{
-    background-image: url("../assets/match3.png");
+    background-size: 100%;
 }
 
 .matches{
@@ -78,32 +85,38 @@
     margin: 0;
 
     display: grid;
-    grid-template-columns: 100vw;
+    grid-template-columns: 37vw 26vw 37vw; /* only use middle column */
     grid-template-rows: 9vh 16vh;/* should add to 25vh */
-
-    /* border: 1px solid black; */
 }
 
 #matchText{
+    grid-column: 2;
     margin: 0;
     grid-row: 1;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
+    text-align: center;
 }
 
 #matchButton{
-    margin: 0;
+    grid-column: 2;
+    margin-top: 5vh;
     grid-row: 2;
 }
 
 #matchButtonButton{
     display: block;
     margin-top: -8vh;
-    width: 20vw;
+    width: 10vw;
     height: 5vh;
 
     text-align: center;
+    font-size: 1rem;
 
     border-radius: 8px;
     border: #febd26;
     background-color: #febd26;
+}
+
+a{
+    text-decoration: none;
 }

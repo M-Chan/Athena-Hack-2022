@@ -80,14 +80,17 @@ body{
 .info{
     grid-row: 2;
     background-color: #e8dfd8;
+
+    display: flex;
+    align-items: center;
 }
 
 #infoText{
     width: 22.5vw;
-    
-    text-align: center;
+    margin-left: 2vh;
+    text-align: left;
     font-family: Inter;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .potentialPerson{
@@ -104,7 +107,7 @@ body{
 
     text-align: left;
     font-family: Inter;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -146,5 +149,5 @@ body{
 
     text-align: left;
     font-family: Inter;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
