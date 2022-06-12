@@ -27,8 +27,14 @@ a{
     grid-template-rows: 17vh 14vh 14vh 40vh; /* 4 rows; adds to 85vh */
 }
 
+.topRow{
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
 .actualQuestionPart{
     grid-row: 1;
+    grid-column: 2;
 }
 
 #questionText{
