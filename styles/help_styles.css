@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.is--visible{
+    display: block;
+}
+
+.is--hidden{
+    display: none;
+}
+
+.clickForHelp{
+    grid-row: 1;
+    grid-column: 3;
+
+    display: block;
+    position: absolute;
+    top: 22.5vh;
+    right: 5vh;
+}
+
+#helpIcon{
+    height: 7vh;
+    width: 7vh;
+    background-size: 100%;
+    background-image: url("../assets/Question.png");
+}
+
+#infoOnQuiz{
+    width: 100vw;
+    height: 85vh;
+
+    grid-row: 1 / 5;
+    grid-column: 1;
+}
+
+.helpPart{
+    width: 100vw;
+    height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#help{
+    background-color: #fff;
+    border: 1vh solid black;
+
+    width: 60vw;
+    height: 65vh;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 6vh 14vh 45vh; /* 3 rows; adds to 65vh */
+}
+
+.helpTop{grid-row: 1;}
+
+#helpTopText{
+    grid-column: 1 /3;
+    margin-top: 10vh;
+    /* margin-left: 2.5vw; */
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#exitHelpIcon{
+    margin: 1vh;
+    width: 4vh;
+    height: 4vh;
+    background-size: 100%;
+    background-image: url("../assets/Cross2Icon.png");
+}
+
+.helpMid{grid-row: 2;}
+
+.helpBottom{grid-row: 3;}
+
+#helpMainText{
+    grid-column: 1 /3;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    font-family: Inter;
+    font-size: 1.5rem;
+    text-align: left;
+}
+

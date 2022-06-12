@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/website_top_styles.css" />
+    <link rel="stylesheet" href="./styles/q1_styles.css" />
+    <link rel="stylesheet" href="./styles/help_styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Question 1</title>
+</head>
+<body>
+    <div class="questionFrame">
+        <div id="top">
+            <!-- logo -->
+            <div class="webCompany">
+                <div id="Company_namelogo">
+                    Company
+                    name/logo
+                </div>
+            </div>
+            
+            <!-- Navigation -->
+            <div id="navigationPane">
+                <div id="Menu_1" class="menu flex">
+                    Navigation menu 1
+                </div>
+                <div id="Menu_2" class="menu flex">
+                    Navigation menu 2
+                </div>
+                <div id="Menu_3" class="menu flex">
+                    Navigation menu 3
+                </div>
+            </div>
+
+            <!-- Profile -->
+            <div id="profile">
+                <div class="User-profile flex">
+                    <div id="profilePic"></div>
+                </div>
+                <div class="heyPerson flex">
+                    Hi, Lara!
+                </div>
+            </div>
+        </div>
+    
+        <div class="questionPart">
+            <div id="infoOnQuiz" class="is--hidden">
+                <div class="helpPart">
+                    <div id="help">
+                        <div class="helpTop"><div id="exitHelpIcon"></div></div>
+                        <div class="helpMid flex"><div id="helpTopText">How it Works</div></div>
+                        <div class="helpBottom">
+                            <div id="helpMainText">
+                                1. You complete the Skills & Personality Quiz for Starter Job Matching. </br></br>
+                                2. A recruiter reaches out to discuss a starter job in your chosen location. </br></br>
+                                3. We connect you to a mentor at that company who supports your career development. </br></br>
+                                4. You can meet with your mentor every week to discuss your career and skill development.
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="topRow">
+                <div class="actualQuestionPart flex">
+                    <div id="questionText">Where do you want to find work?</div>
+                </div>
+                <div class="clickForHelp">
+                    <div id="helpIcon"></div>
+                </div>
+            </div>
+
+            <div class="enterPart flex">
+                <input type="text">
+            </div>
+            <div class="locationPart flex"><a href="https://maps.google.co.uk/maps?hl=en">
+                    <div id="locationButton">
+                        <div id="locationText">Use my Location</div>
+                        <div class="locationIconPostion flex"><div id="locationIcon"></div></div>
+                        
+                    </div>
+            </a></div>
+            <div class="buttonPart">
+                <div class="enterButton flex">
+                    <a href="./quiz_page2.html"><div class="enterText">Enter</div></a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</body>
+<script type="module" src="./app/help_script.js"></script>
+</html>

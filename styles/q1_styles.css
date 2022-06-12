@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.questionFrame{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+
+    display: grid;
+}
+
+.questionPart{
+    width: 100vw;
+    height:  85vh;
+    margin-top: 4vh;
+    background-color: #f1efef;
+
+    display: grid;
+    grid-template-columns: auto; /* later split the last row into multiple columns */
+    grid-template-rows: 17vh 14vh 14vh 40vh; /* 4 rows; adds to 85vh */
+}
+
+.topRow{
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+}
+
+.actualQuestionPart{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#questionText{
+    grid-column: 1;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.enterPart{
+    grid-row: 2;
+}
+
+input{
+    width: 30vw;
+    height: 6vh;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.locationPart{
+    grid-row: 3;
+}
+
+#locationButton{
+    width: 30vw;
+    height: 8vh;
+
+    background-color: #2c2c2c;
+
+    display: grid;
+    grid-template-columns: 20vw 10vw; /* adds to 35vw */
+    grid-template-rows: auto;
+}
+
+#locationText{
+    grid-column: 1;
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.locationIconPostion{
+    grid-column: 2;
+}
+
+#locationIcon{
+    height: 3vh;
+    width: 3vh;    
+    background-size: 100%;
+    background-image: url("../assets/locationIcon.png");
+}
+
+.buttonPart{
+    grid-row: 4;
+
+    display: grid;
+    grid-template-columns: 40vw 20vw 40vw;
+    grid-template-rows: 13vh 14vh 13vh; /* adds to 40 vh*/
+}
+
+.enterButton{
+    grid-column: 2;
+    grid-row: 2;
+    width: 13vw;
+    height: 5vh;
+
+    background-color: #2c2c2c;
+    margin-left: 3vw;
+}
+
+.enterText{
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
