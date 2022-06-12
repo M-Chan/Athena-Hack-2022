@@ -53,45 +53,18 @@ a{
     grid-template-rows: 7vh 7vh 7vh 7vh;
 }
 
-/* .row{
-    width: 100vw;
-    height: 7vh;
-    display: grid;
-    grid-template-rows: 7vh;
-
-} */
-
-#row1{
-    width: 100vw;
-    height: 7vh;
-    display: grid;
-    grid-template-rows: 7vh;
-    grid-template-columns: 10vw 13vw 15vw 11vw 14vw 12vw 15vw 10vw; /* middle adds to 80vw */
-}
-
-#row2{
-    width: 100vw;
-    height: 7vh;
-    display: grid;
-    grid-template-rows: 7vh;
-    grid-template-columns: 10vw 14vw 11vw 15w 13vw 12vw 15vw 10vw; /* middle adds to 80vw */
-}
-
-#row3{
-    width: 100vw;
-    height: 7vh;
-    display: grid;
-    grid-template-rows: 7vh;
-    grid-template-columns: 10vw 13vw 15vw 13vw 12vw 13vw 14vw 10vw; /* middle adds to 80vw */
-}
-
-#row4{
+.row{
     width: 100vw;
     height: 7vh;
     display: grid;
     grid-template-rows: 85vh;
-    grid-template-columns: 10vw 15vw 14w 10vw 15vw 11vw 15vw 10vw; /* middle adds to 80vw */
+    row-gap: 1vh;
 }
+
+#row1{grid-template-columns: 10vw 13vw 15vw 11vw 14vw 12vw 15vw 10vw; /* middle adds to 80vw */}
+#row2{grid-template-columns: 10vw 14vw 11vw 15w 13vw 12vw 15vw 10vw; /* middle adds to 80vw */}
+#row3{grid-template-columns: 10vw 13vw 15vw 13vw 12vw 13vw 14vw 10vw; /* middle adds to 80vw */}
+#row4{grid-template-columns: 10vw 15vw 14w 10vw 15vw 11vw 15vw 10vw; /* middle adds to 80vw */}
 
 .buttonPart{
     grid-row: 3;
@@ -118,11 +91,6 @@ a{
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
-/* .checkbox{
-    height: 7vh;
-    width: auto;
-} */
 
 #analyticalBox, #activateBox, #ideaBox, #respBox{
     grid-column: 2;
