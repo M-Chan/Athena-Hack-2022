@@ -5,7 +5,7 @@
 Hey! We are Codecritters! :wave:<br>
 Thanks for checking out the repo - have fun!
 
-This contains a webdev project for [Showcode's Athena Hackathon 2022]() for which we took on the Hack theme 'Improving refugee access to work, skills and careers' by Beamery<br>
+This contains a webdev project for [Showcode's Athena Hackathon 2022](https://www.showcode.io/athena-hack-2022/?utm_medium=bsocial) for which we took on the Hack theme 'Improving refugee access to work, skills and careers' by Beamery<br>
 The website was designed to connect refugess with personal mentors and recruiters that they would be suited for based on their skillsets and their interests. As a website, it is easily accessible: many public libraries and now cafes allow for internet access and/or computer usage. 
 
 ### How it will work
